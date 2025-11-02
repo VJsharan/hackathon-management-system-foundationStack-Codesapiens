@@ -57,11 +57,12 @@ It features a clean UI built with **TailwindCSS** and **shadcn/ui**, ensuring sc
         ├── SignIn.tsx
         ├── SignUp.tsx
         └── NotFound.tsx
+```
 
 ## ⚙️ Setup & Installation
 1️⃣ Clone the repository
-```git clone https://github.com/navinnaz/hackathon-management-system.git
-cd hackathon-management-system```
+```git clone https://github.com/navinnaz/hackathon-management-system.git```
+```cd hackathon-management-system```
 
 2️⃣ Install dependencies
 ```npm install```
