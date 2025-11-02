@@ -8,32 +8,30 @@ const Landing = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-20 md:py-32">
+      <section className="container mx-auto px-4 py-20 md:py-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-slide-up">
             <div className="inline-block border-4 border-black bg-orange px-4 py-2 shadow-brutal-sm">
               <p className="text-sm font-black uppercase text-off-white">
-                Next-Gen Hackathon Platform
+                A next-gen hackathon management platform
               </p>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-black leading-none text-navy">
-              BUILD.<br />
-              COMPETE.<br />
-              <span className="text-orange">WIN.</span>
+              ORGANIZE.<br />
+              MANAGE.<br />
+              <span className="text-orange">TRACK</span>
             </h1>
             
             <p className="text-xl font-semibold text-navy/80 max-w-md">
-              The ultimate platform for organizing, managing, and participating in hackathons. 
-              Join thousands of innovators worldwide.
+              The ultimate platform for running smarter hackathons with automated workflows, real-time tracking, and integrated judging tools.
             </p>
             
             <div className="flex flex-wrap gap-4">
               <Link to="/signup">
                 <Button variant="hero" size="lg">
-                  Get Started Free
+                  Get started for free!
                 </Button>
               </Link>
               <Button variant="outline" size="lg">
@@ -44,11 +42,11 @@ const Landing = () => {
             <div className="flex items-center gap-8 pt-4">
               <div className="border-l-4 border-black pl-4">
                 <p className="text-3xl font-black text-navy">10K+</p>
-                <p className="text-sm font-bold text-navy/70">Active Users</p>
+                <p className="text-sm font-bold text-navy/70">Expected Active Users</p>
               </div>
               <div className="border-l-4 border-black pl-4">
                 <p className="text-3xl font-black text-navy">500+</p>
-                <p className="text-sm font-bold text-navy/70">Hackathons</p>
+                <p className="text-sm font-bold text-navy/70">Hackathons Managed</p>
               </div>
             </div>
           </div>
@@ -93,7 +91,7 @@ const Landing = () => {
               Why Choose Us?
             </h2>
             <p className="text-xl font-semibold text-navy/80 max-w-2xl mx-auto">
-              Everything you need to run successful hackathons in one powerful platform
+              Everything you need to run successful hackathons in one single powerful platform
             </p>
           </div>
 
@@ -148,7 +146,7 @@ const Landing = () => {
       <footer className="bg-navy border-t-4 border-black py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-off-white font-bold">
-            © 2025 HACKATHON. Built with <span className="text-orange">❤️</span> for innovators.
+            © 2025 FoundationStack | Built with <span className="text-orange">❤️</span> for students, communities, universities :)
           </p>
         </div>
       </footer>

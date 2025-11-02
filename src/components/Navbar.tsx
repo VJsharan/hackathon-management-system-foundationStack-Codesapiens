@@ -15,7 +15,10 @@ const Navbar = () => {
               <Code2 className="h-6 w-6 text-off-white" />
             </div>
             <span className="text-2xl font-black text-off-white tracking-tight">
-              HACK<span className="text-orange">ATHON</span>
+              Foundation<span className="text-orange"> Stack</span>
+            </span>
+            <span className="text-2xl font-black text-off-white tracking-tight">
+              | Hackathon Management System
             </span>
           </Link>
 
